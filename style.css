@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container-fluid {
+  overflow-x: hidden;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.navbar-nav .nav-link.active {
+  color: greenyellow !important;
+}
+
+.slide {
+  margin-top: 56px;
+}
+
+.carousel-inner {
+  height: 80vh;
+}
+
+.carousel-inner img {
+  width: 100%;
+}
+
+.courses-section {
+  margin: auto;
+  width: 80%;
+  height: 300px;
+  padding: 30px;
+}
+.courses-section button, .courses-section h1, .courses-section p {
+  margin-bottom: 30px;
+}
+
+#course {
+  padding: 40px;
+}
+
+.features {
+  width: 80%;
+  margin: auto;
+  padding: 50px;
+  background-color-color: green;
+}
+
+.features-header {
+  margin-top: 30px;
+}
+
+#resourses {
+  padding: 40px;
+}
+
+.resources-content {
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+}
+
+.resources-header {
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+#clients {
+  overflow-x: hidden;
+}
+
+#clients img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+blockquote svg.svg-inline--fa {
+  color: #1ebba3;
+  margin: 1rem;
+}
+
+footer {
+  background-color: #40474e;
+  color: white;
+  padding: 2rem 0 2rem;
+  margin-top: 1rem;
+}
+
+#contact {
+  overflow-x: hidden;
+}
+
+footer img {
+  height: 3rem;
+  margin: 1.5rem 0;
+}
+
+footer a {
+  color: white;
+}
+
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem 0.5rem 0rem;
+}
+
+footer svg.svg-inline--fa:hover {
+  color: #1ebba3 !important;
+}
+
+hr.socket {
+  width: 100%;
+  border-top: 0.2rem solid #666b71;
+  margin-top: 3rem;
+}
+
+@media (max-width: 767px) {
+  .courses-section {
+    padding: 0px;
+  }
+  .courses-section button, .courses-section h1, .courses-section p {
+    margin-bottom: 0px;
+  }
+
+  #clients {
+    width: 90%;
+  }
+  #clients #clients img {
+    display: block;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
